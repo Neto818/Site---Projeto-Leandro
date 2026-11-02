@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Area de pedido</title>
+  </head>
+
+  <body>
+
+    <h1>Faça seu pedido aqui</h1>
+
+    <form autocomplete="on">
+
+      <fieldset>
+        <legend>Faça seu Login</legend>
+
+        <label for="Email">Email</label>
+        <input type="text" id="Email"><br>
+
+        <label for="Senha">Senha</label>
+        <input type="password" id="Senha"><br>
+
+        <p><b>Não tem login? Faça seu cadastro</b></p>
+
+        <a href="index3.html">
+          <button type="button">Fazer Cadastro</button>
+        </a>
+
+      </fieldset>
+
+      <fieldset>
+
+        <legend>Complete seu pedido</legend>
+
+        <label>Selecione seu(s) pedido(s):</label><br><br>
+
+        <div style="display: grid; grid-template-columns: 400px 400px; gap: 10px;">
+
+          <label>
+            <input type="checkbox" name="pedido" value="Hamburguer1">
+            Hamburguer R$20,00 (PEQUENO)
+          </label>
+
+          <label>
+            <input type="checkbox" name="pedido" value="BatataFrita1">
+            Batata Frita R$8,00 (PEQUENO)
+          </label>
+
+          <label>
+            <input type="checkbox" name="pedido" value="Hamburguer2">
+            Hamburguer R$28,50 (MEDIO)
+          </label>
+
+          <label>
+            <input type="checkbox" name="pedido" value="BatataFrita2">
+            Batata Frita R$12,90 (MEDIO)
+          </label>
+
+          <label>
+            <input type="checkbox" name="pedido" value="Hamburguer3">
+            Hamburguer R$35,00 (GRANDE)
+          </label>
+
+          <label>
+            <input type="checkbox" name="pedido" value="BatataFrita3">
+            Batata Frita R$20,50 (GRANDE)
+          </label>
+
+          <label>
+            <input type="checkbox" name="pedido" value="MilkShake1">
+            MilkShake R$12,00 (PEQUENO)
+          </label>
+
+          <label>
+            <input type="checkbox" name="pedido" value="Refrigerante">
+            Refrigerante R$8,00
+          </label>
+
+          <label>
+            <input type="checkbox" name="pedido" value="MilkShake2">
+            MilkShake R$18,00 (MEDIO)
+          </label>
+
+          <label>
+            <input type="checkbox" name="pedido" value="Suco de laranja">
+            Suco de laranja R$6,00
+          </label>
+
+          <label>
+            <input type="checkbox" name="pedido" value="MilkShake3">
+            MilkShake R$22,50 (GRANDE)
+          </label>
+
+        </div>
+
+        <h3>Combos</h3>
+
+        <input type="checkbox" id="Combo1" name="pedido" value="Combo1">
+        <label for="Combo1">
+          Combo Hamburguer + Batata + Refrigerante R$39,99 (MELHOR)
+        </label>
+
+        <br>
+
+        <input type="checkbox" id="Combo2" name="pedido" value="Combo2">
+        <label for="Combo2">
+          Combo MilkShake + Hamburguer R$32,50 (PROMOÇÃO)
+        </label>
+
+        <br><br><br>
+
+        <label for="Endereco">Endereço de entrega</label>
+        <input type="text" id="Endereco">
+
+        <br>
+
+        <p>Valor do pedido total: (Só usar calculadora)</p>
+
+        <label for="Pagamento">Metodo de Pagamento</label>
+
+        <select id="Pagamento">
+          <option>PIX</option>
+          <option>Cartão de Crédito</option>
+          <option>Cartão de Débito</option>
+          <option>Paypal</option>
+        </select>
+
+        <br><br>
+
+        <a href="index4.html">
+          <button type="button">Enviar o seu pedido</button>
+        </a>
+
+      </fieldset>
+
+    </form>
+
+  </body>
+</html>
